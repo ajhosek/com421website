@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  width: 70%;
+  margin: auto;
+  text-align: left;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+  align-items: center;
+}
+
+.navigation{
+  display: flex;
+}
+
+nav {
+  flex: 2;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.nav-link {
+  color: #5f5f79;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  color: #07612f;
+  font-size: 3em;
+}
+
+h2 {
+  color: #07612f;
+  font-size: 1.6em;
+}
+
+
+h3 {
+  margin-left: 50px;
+  font-size: 1.1em;
+}
+
+hr{
+  height: 3px;
+  fill: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+ul {
+  font-size: 1em;
+}
+
+.homepage-title{
+  text-align: center;
+  margin: 20px auto 20px auto;
+}
+
+.about-me{
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+.download-resume{
+  margin-top: 20px;
+  text-align: center;
+}
+.contact-info {
+  display: flex;
+  margin: auto;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.education{
+  display: flex;
+}
+
+.school{
+  flex: 1;
+}
+
+.coursework{
+  flex: 1.5;
+  margin-top: 38px;
+}
+
+.general-list {
+  margin-left: 100px;
+}
+
+.project-item {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.project-info{
+  flex: 1;
+  margin: auto 10px auto 10px;
+
+}
+
+.project-image{
+  flex: 1;
+}
+
+.project-image img{
+  height: 30rem;
+}

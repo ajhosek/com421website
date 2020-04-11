@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+          href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Project's Page</title>
+    </head>
+  <body>
+    <header>
+        <h1>Andrew Hosek</h1>
+        <div class="navigation">
+          <nav>
+            <ul class="nav-links">
+              <li><a class="nav-link" href="index.html">Home</a></li>
+              <li><a class="nav-link" href="projects.html">Projects</a></li>
+              <li><a class="nav-link" href="resume.html">Resume</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    <main>
+        <div class="project-item">
+            <div class="project-info">
+                <h2>Puzzle Game and Solver (Python)</h2>
+                <p>This application is a replication of a game called Nonogram or Picross. 
+                    It is written in python using the library pygame. In the game there is a main menu to select the level. 
+                    In the level there are three lives and selecting the wrong box loses a life. After all lives are lost the level is over.</p>
+            </div>
+            <div class="project-image">
+                <img src="Images\Nonogram.jpg" alt="Screenshot of the Nonogram Board"/>
+            </div>
+        </div>
+        <div class="project-item">
+            <div class="project-image">
+                <img src="Images\OnlineStore.png" alt="Screenshot of the view in the Item Search view in the Online Store"/>
+            </div>
+            <div class="project-info">
+                <h2>Online Grocery Store</h2>
+                <p>This project was from my class Database Organization. The application uses Java and JavaFX for the user interface. 
+                    In the application there are different views for both employees and customers. Customers can change information, add credit cards, chack balances, add items to their cart, and finally place an order.
+                    The picture to the right displays the Item Search view where customers can look for items to buy and then add them to their cart. </p>
+            </div>
+            
+        </div>
+        <div class="project-item">
+            <div class="project-info">
+                <h2>Website Stock Scraper</h2>                
+                <p>This project is a python script for the purpose of getting information about certain types of activity around stocks. 
+                    The script is automated by a scheduled task running multiple times a day to update myself on stocks. It scrapes info from 
+                    <a href="https://www.finviz.com">Finviz.com</a> 
+                    to get the stocks and then it retrieves real time data from <a href="https://finance.yahoo.com/">Yahoo Finance</a>. The stocks come from the following categories.
+                </p>
+                <ul class="general-list">
+                    <li>Top Gainers</li>
+                    <li>Over Bought</li>
+                    <li>Unusual Volume</li>
+                    <li>Most Volatile</li>
+                </ul>
+            </div>
+            <div class="project-image">
+                <img src="Images\StockScraperEmail.png" alt="Screenshot of the CSV file email from the data scraper"/>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
